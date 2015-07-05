@@ -1,0 +1,15 @@
+"Properties"
+	{
+	"Authors"		"TeamSpen210"
+	"Tags"			"BEE 2 Addons;TS - Modified Items"
+	"Description"	
+		{
+		"Line"		"A variation of the standard grating, which is placed flat on the wall over a recessed surface."
+		"Line"		"Inherits wall colour when possible."
+		}
+	"infoURL"		"https:/\/developer.valvesoftware.com/wiki/Portal_2_Puzzle_Maker/Glass"
+	"Icon"
+		{
+			"0"		"clean/grating.png"
+		}
+	}

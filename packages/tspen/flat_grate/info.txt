@@ -1,0 +1,14 @@
+"ID"		"TSPEN_FLAT_GRATING"
+"Name"		"Flat Grating"
+
+"Item"
+	{
+	"ID" "ITEM_TSPEN_FLAT_GRATING"
+	"Version"
+		{
+		"Styles"
+			{
+			"BEE2_CLEAN"	"grate_clean"
+			}
+		}
+	}
