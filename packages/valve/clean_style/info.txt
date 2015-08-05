@@ -44,6 +44,7 @@
 	{
 	"ID" "ITEM_OBSERVATION_ROOM"
 	"NeedsUnlock"	"1"
+	"Description"	"This room is always placed by default in a map, and produces special lighting that casts real-time shadows."
 	"Version"
 		{
 		"Styles"
@@ -83,6 +84,7 @@
 	{
 	"ID" "ITEM_COOP_ENTRY_DOOR"
 	"NeedsUnlock"	"1"
+	"Description"	"The spawn room in Coop. Don't place both the SP and Coop doors in the same map, weird things can happen."
 	"Version"
 		{
 		"Styles"
@@ -96,6 +98,7 @@
 	{
 	"ID" "ITEM_COOP_EXIT_DOOR"
 	"NeedsUnlock"	"1"
+
 	"Version"
 		{
 		"Styles"
