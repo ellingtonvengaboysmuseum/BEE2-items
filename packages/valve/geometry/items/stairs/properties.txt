@@ -2,12 +2,7 @@
 	{
 	"Tags"			"Portal 2;Panels"
 	"Authors"		"Valve"
-	"Description"	
-		{
-		"Line"	"A 2x1 area of black tiles that can rise on panel arms to form stairs."
-		"Line"	"Set Start Reversed to make the stair surface accept portals when retracted."
-		"Line"	"If no connections are attached, the stair will be replaced with a armless solid version."
-		}
+	"Description"	"Clean Stairs are formed by 4 pairs of Panel arms moving white or black tiles in sync."
 	"infoURL"		"https:/\/developer.valvesoftware.com/wiki/Portal_2_Puzzle_Maker/Stairs"
 	"Icon"
 		{

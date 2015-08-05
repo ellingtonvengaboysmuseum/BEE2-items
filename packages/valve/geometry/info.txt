@@ -9,10 +9,12 @@
 	"ID" "ITEM_BARRIER"
 	"Version"
 		{
-		"Name"			"Regular"
-		"Number"			"1"
-		"Beta"			"0"
-		"Deprecated"		"0"
+		"Description"	
+			{
+			"Line"		"Thin walls made of glass or grating."
+			"Bullet"		"Glass only lets through Discouragement Beams."
+			"Bullet"		"Grating only blocks player movement, cubes and turrets (but not turret bullets)."
+			}
 		"Styles"
 			{
 			"BEE2_CLEAN"	"glass"
@@ -24,10 +26,10 @@
 	"ID" "ITEM_SECONDARY_OBSERVATION_ROOM"
 	"Version"
 		{
-		"Name"			"Regular"
-		"Number"			"1"
-		"Beta"			"0"
-		"Deprecated"		"0"
+		"Description"
+			{
+			"Line"		"A smaller observation room used as a light source."
+			"Bullet"		"Small observation rooms can additionally be placed in floors and ceilings."
 		"Styles"
 			{
 			"BEE2_CLEAN"	"obs_room"
@@ -39,10 +41,8 @@
 	"ID" "ITEM_LIGHT_PANEL"
 	"Version"
 		{
-		"Name"			"Regular"
-		"Number"			"1"
-		"Beta"			"0"
-		"Deprecated"		"0"
+		"AllDescLast"	"1"
+		"Description"	"It may also be used to block portal placement or antline wiring."
 		"Styles"
 			{
 			"BEE2_CLEAN"	"light_strip"
@@ -54,10 +54,11 @@
 	"ID" "ITEM_PANEL_ANGLED"
 	"Version"
 		{
-		"Name"			"Regular"
-		"Number"			"1"
-		"Beta"			"0"
-		"Deprecated"		"0"
+		"Description"
+			{
+			"Line"		"An angled surface that can rise to angles of 30,45,60 and 90 degrees."
+			"Bullet"		"If set to Start Disabled without any inputs connected, this will transform into a flat panel slightly extended into the map."
+			}
 		"Styles"
 			{
 			"BEE2_CLEAN"	"angled_pan"
@@ -69,10 +70,11 @@
 	"ID" "ITEM_PANEL_CLEAR"
 	"Version"
 		{
-		"Name"			"Regular"
-		"Number"			"1"
-		"Beta"			"0"
-		"Deprecated"		"0"
+		"Description"	
+			{
+			"Line"		"A glass surface that can rise to angles of 30, 45, 60 and 90 degrees."
+			"Bullet"		"If set to Start Disabled without any inputs connected, this will transform into a flush glass surface."
+			}
 		"Styles"
 			{
 			"BEE2_CLEAN"	"glass_pan"
@@ -84,10 +86,7 @@
 	"ID" "ITEM_PANEL_FLIP"
 	"Version"
 		{
-		"Name"			"Regular"
-		"Number"			"1"
-		"Beta"			"0"
-		"Deprecated"		"0"
+		"Description"	"A panel that can flip over to reverse the panel colour."
 		"Styles"
 			{
 			"BEE2_CLEAN"	"flip_pan"
@@ -99,10 +98,12 @@
 	"ID" "ITEM_PANEL_STAIRS"
 	"Version"
 		{
-		"Name"			"Regular"
-		"Number"			"1"
-		"Beta"			"0"
-		"Deprecated"		"0"
+		"Description"	
+			{
+			"Line"		"A 2x1 area that can rise to form stairs."
+			"Bullet"		"Stairs can now be swotched to accept portals when retracted."
+			"Line"		"If no connections are attached, the stair will be replaced with a armless solid version."
+			}
 		"Styles"
 			{
 			"BEE2_CLEAN"	"stairs"
@@ -114,10 +115,7 @@
 	"ID" "ITEM_RAIL_PLATFORM"
 	"Version"
 		{
-		"Name"			"Regular"
-		"Number"			"1"
-		"Beta"			"0"
-		"Deprecated"		"0"
+		"Description"	"A platform that moves along a track. It can either move back and forth when enabled or change from one side to another when turned on or off."
 		"Styles"
 			{
 			"BEE2_CLEAN"	"track_plat"
@@ -129,10 +127,13 @@
 	"ID" "ITEM_PISTON_PLATFORM"
 	"Version"
 		{
-		"Name"			"Regular"
-		"Number"			"1"
-		"Beta"			"0"
-		"Deprecated"		"0"
+		"Description"
+			{
+			"Line"		"A large platform mounted on a piston that can move in and out."
+			"Bullet"		"Players and objects are destroyed if they block downward movement of the piston."
+			"Bullet"		"The Auto Drop option enables or disables player detection. If enabled the platform will only move when players stand on the lift."
+			"Bullet"		"If connections are attached, they must be all active first before the lift will function."
+			}
 		"Styles"
 			{
 			"BEE2_CLEAN"	"piston_plat"
