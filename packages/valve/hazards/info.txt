@@ -34,6 +34,12 @@
 	"all_conf"	"fizzler"
 	"Version"
 		{
+		"Description"	
+			{
+			"Line"		"Pairs of emitters that produce a hazardous field."
+			"Bullet"		"Fizzlers destroy cubes and turrets, block portal shots and destroy portals when the player walks through."
+			"Bullet"		"Discouragement Fields kill players, but do not affect any other items."
+			}
 		"Styles"
 			{
 			"BEE2_CLEAN"	"fizz"
