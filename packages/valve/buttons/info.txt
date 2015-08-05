@@ -8,6 +8,7 @@
 	{
 	"ID" "ITEM_BUTTON_FLOOR"
 	"all_conf"	"floor_button"
+	"Description"	"Big pressure buttons activated by players or cubes. Cube buttons are only activated by cubes, sphere buttons only by spheres."
 	"Version"
 		{
 		"Styles"
@@ -20,6 +21,7 @@
 "Item"
 	{
 	"ID" "ITEM_BUTTON_PEDESTAL"
+	"Description"	"A small button on a stand that can be pushed by the player. It is active for a configurable time, or indefinitely active once pushed."
 	"all_conf"	"ped_button"
 	"Version"
 		{
