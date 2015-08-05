@@ -8,6 +8,12 @@
 "Item"
 	{
 	"ID" "ITEM_LASER_EMITTER_CENTER"
+	"Description"
+		{
+		"Line"		"A powerful laser beam, directed into Laser Catchers and Relays to activate puzzle elements. Discouragement Beams ignite turrets and kill the player after prolonged contact."
+		"Bullet"		"It can be redirected using redirection cubes, portals and Reflection Gel."
+		"Bullet"		"Discouragement Beams will 'pop' Gel Bombs if they are struck in midair, painting nearby surfaces."
+		}
 	"all_conf"	"laser_emitter"
 	"Version"
 		{
@@ -20,6 +26,7 @@
 "Item"
 	{
 	"ID" "ITEM_LASER_CATCHER_CENTER"
+	"Description"	"This sensor detects when a Discouragement Beam is pointed into it."
 	"all_conf"	"laser_catcher"
 	"Version"
 		{
@@ -32,6 +39,7 @@
 "Item"
 	{
 	"ID" "ITEM_LASER_RELAY_CENTER"
+	"Description"	"Laser Relays detect when a Discouragement Beam is fired through it."
 	"all_conf"	"laser_relay"
 	"Version"
 		{
